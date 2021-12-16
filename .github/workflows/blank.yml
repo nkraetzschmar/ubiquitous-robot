@@ -35,4 +35,4 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           df -h
-          du -sh /*
+          sudo du -sh /* 2> /dev/null
